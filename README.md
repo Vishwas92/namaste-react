@@ -10,7 +10,21 @@ parcer will do minification
 parcer will also compress
 parcer is also doing consistent hashing
 code splitting
-differential Bundling - supporting older browsers
-Diagnostic
+Differential Bundling - supporting older browsers
+Diagnostics
 Error Handling
 HTTPs
+Tree Shaking - remove unused code
+
+# Food Ordering App
+
+Two types of export and imports
+
+-Default Export/Import
+
+export default Component
+import Component from "path";
+
+-Named Export/Import
+
+export {Component}
