@@ -28,3 +28,25 @@ import Component from "path";
 -Named Export/Import
 
 export {Component}
+
+# React Hooks
+React Hooks are just normal Javascript functions
+
+-useState() - Superpowerful State Variables in react
+
+-useEffects() - 
+
+These two are most important Hooks
+
+Whenever state variable updates React Re-Renders the component
+
+# React (Why is React faster)
+
+React is faster because it does dom manipulation or re-rendering the component as soon as the state is changed.
+
+# 2 types Routing in React Apps
+
+- Client Side Routing
+- Server Side Routing
+
+

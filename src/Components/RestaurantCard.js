@@ -1,5 +1,5 @@
 import { CON_URL } from "../utils/constants";
-
+import { Link } from "react-router-dom";
 
 
 const styleCard = { backgroundColor: "#f0f0f0" };
@@ -14,7 +14,7 @@ const RestaurantCard = (props) => {
         costForTwo
     } = resData?.info;
     const {deliveryTime} = resData?.info?.sla;
-    console.log(props);
+    //console.log(props);
     return (
         <div className="res-card" style={styleCard}>
             <img className="res-logo" alt= "res-logo" src={CON_URL + cloudinaryImageId} />
